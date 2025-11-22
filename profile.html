@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar" style="min-width: 750px;"">
+    <nav class="navbar nannav">
     <div class="container flex-between">
-      <div class="logo" style="display: flex; align-items: center;">
-        <img style="width: 40px; margin-right: 10px;" src="images/logo.png">
-        <a href="#"><h1 style="margin-right: 50px;">CareerAim</h1></a>
+      <div class="logo nannavico">
+        <img class="nannavicoimg" src="images/logo.png">
+        <a href="index.html"><h1 class="nannavicotxt">CareerAim</h1></a>
       </div>
 
         <div class="nav-links">
@@ -29,35 +29,59 @@
         </div>
       </div>
     </nav>
-    <div class="dashboard-main">
-        <div class="dashboard-grid">
-            <div class="active-projects">
-                <h3>Profile</h3><br>
-                <div>
-                    <img src="images/user.png" style="width: 70px;">
+
+    <div class="container" style="margin-top: 40px;">
+        <div class="container">
+            <div class="project-card" style="display: flex;">  
+                <div style="flex: 1;">
+                    <h3>Profile</h3><br>
+                    <img src="images/user.png" style="width: 70px;"><br>
                     <p style="font-size: 18px; font-weight: bold;">
-                        Name: Steve Manbun<br>
-                        Major: Computer Sciene
+                        Name: Md. Naeem Islam<br>
+                        Major: Computer Sciene<br>
+                        Institution: Texas Tech University
                     </p>
                 </div>
-                <div>
-                    <h3>Skills</h3>
-                    <p style="font-size: 15px; font-weight: bold;">
-                        HTML Programming
-
-                    </p>
+                <div style="flex: 1;">
+                    <h3>Skills</h3><br>
+                    <ul class="benefits-list">
+                      <li>Python Programming</li>
+                      <li>Machine Learning</li>
+                      <li>AnSYS Simulation</li>
+                      <li>Web development</li>
+                      <li>Software Development</li>
+                    </ul>
                 </div>
             </div>
-            <div class="active-projects">
-                <h2>Portfolio Links</h2>
+            <div class="active-projects container">
+                <h2>Portfolio Links</h2><br>
                 <p>
                     <img src="images/linkedin.png" style="width: 20px; display: inline;"><a href="#"> LinkedIn</a><br>
-                    <img src="images/Github.png" style="width: 20px; display: inline;"><a href="#"> Github</a>
+                    <img src="images/Github.png" style="width: 20px; display: inline;"><a href="#"> Github</a><br>
+                    <img src="images/youtube.png" style="width: 20px; display: inline;"><a href="#"> Youtube</a><br>
+                    <img src="images/web.png" style="width: 20px; display: inline;"><a href="#"> Website</a>
                 </p>
             </div>
         </div>
-           <br> <a href="#" class="btn-login" style="object-position: bottom;">Edit Profile</a>
+           <br> <a class="btn-login" style="object-position: bottom;">Edit Profile</a>
     </div>
+
+    <footer class="hero nanfooter">
+    <div>
+      <div>
+        <a>Terms</a>
+        <a>Privacy</a>
+        <a></a>Contact</a>
+        <img class="nanlink" src="images/linkedin.png">
+        <a>LinkedIn</a>
+        <img class="nanlink" src="images/twitter.png">
+        <a>Twitter</a>
+        <img class="nanlink" src="images/meta.png">
+        <a>Facebook</a>
+      </div>
+      <p>© 2025 CareerAim. All rights reserved.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
