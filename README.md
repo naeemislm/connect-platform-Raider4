@@ -28,6 +28,11 @@ Connect Platform - Project 2
 
 4\. Project Listings (projects.html)
 
+5\. learn (student-learn.html)
+
+6\. Profile (profile.html)
+
+
 \## Technologies Used
 
 \- HTML5
@@ -42,33 +47,28 @@ Connect Platform - Project 2
 
 \### Adam Broussard
 
-\-
+\- create and wrote README.md
 
-\-
+\-created index.html and images
 
-\-
+\- fixed spelling errors
 
 \### Roy Flores
 
-\-
+\-created student-learn.html
 
-\-
-
-\-
+\-created the profile.html
 
 \### Naeem Islam
 
-\-
+\-created student-dashboard.html
 
-\-
+\-created styles.css
 
-\-
+\- Finalied all other html codes
 
 \### Aiden Romero
 
-\-
+\- created company-dashboard.html
 
-\-
-
-\-
 
