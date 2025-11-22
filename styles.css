@@ -325,7 +325,7 @@ button {
 .nannavico{
   display: flex; 
   align-items: center;
-  margin-right: 70px;
+  
 }
 .nannavicoimg{
   width: 40px; 
@@ -337,41 +337,3 @@ button {
 .nannavlink{
   min-width: 450px;
 }
-
-.search {
-      padding: 0.5rem 1rem;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-    .nav-actions { display: flex; gap: 1rem; align-items: center; }
-    .dashboard-main {
-      min-height: calc(100vh - 200px);
-      padding: 2rem 0;
-      background-color: var(--background-alt);
-    }
-    .images { width: 40px; height: 40px; border-radius: 5px; }
-    .profile-section h3 { margin-bottom: 0.5rem; }
-    .profile-section input,
-    .profile-section textarea,
-    .profile-section select {
-      width: 100%;
-      padding: 0.5rem;
-      margin-top: 0.25rem;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      background: var(--background);
-      color: var(--text);
-    }
-    .profile-section button {
-      margin-top: 1rem;
-      width: 100%;
-    }
-    .student-layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-    @media (max-width: 900px) {
-      .student-layout { grid-template-columns: 1fr; }
-    }
